@@ -35,20 +35,47 @@ img:hover{
 }
 
 .height{
-    width: 93%;
+    width: 79%;
     margin: auto;
     background-color: #2d2f3e;
     border-radius: 10px;
 }
 
 .height input{
+    text-align: center;
+    font-size: larger;
+    color: #fff;
+    position: relative;
+    bottom: 10px;
+    width: 80%;
     border: none;
     border-bottom: #fff 2px solid;
-    
     padding-bottom: 10px;
     background-color: #2d2f3e;
 }
 
+.input-container{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+}
+
+.weight{
+    background-color: #2d2f3e;
+    border-radius: 5px;
+}
+
+.weight input {
+    padding-bottom: 20px;
+}
+
+.age{
+    background-color: #2d2f3e;
+    border-radius: 5px;
+}
+.age input {
+    padding-bottom: 20px;
+}
 @media (max-width: 900px) {
     img{
         width: 12%;
