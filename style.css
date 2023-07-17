@@ -59,7 +59,8 @@ img:hover{
 .range-container{
     display: flex;
     justify-content: space-between;
-    padding: 50px;
+    padding: 20px;
+    margin-left: 22px ;
 }
 .range-container::before {
     content: attr(data-value);
@@ -72,11 +73,15 @@ img:hover{
 }
 
 .weight{
+    height: 100px;
+    width: 45%;
     background-color: #2d2f3e;
     border-radius: 5px;
 }
 
 .age{
+    height: 100px;
+    width: 45%;
     background-color: #2d2f3e;
     border-radius: 5px;
 }

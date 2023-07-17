@@ -15,22 +15,29 @@
             <img src="man.png">
             <img src="woman.png">
         </div>
+
         <div class="height">
             <h4>HEIGHT(cm)</h4>
             <input id="heightInput" type="number" max="210" min="120" placeholder="Please enter your height...">
         </div>
+
         <div class="range-container">
             <div class="age">
                 <h4>AGE</h4>
+                <span id="ageSpan">5</span>
                 <input id="ageInput" type="range" max="100" min="5">
             </div>
+
             <div class="weight">
                 <h4>WEİGHT</h4>
-                <input id="weightInput" type="range" max="100" min="5">
+                <span id="weightSpan">5</span>
+                <input id="weightInput" type="range" max="180" min="5" value="5">
             </div>
+
             <div class="calculate">
                 
             </div>
+       
         </div>
         <button onclick="calculate()">Calculate Your BMI</button>
     </div>
