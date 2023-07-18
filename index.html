@@ -9,18 +9,27 @@
 <body class="text-white d-flex align-items-center">
     <div class="container rounded-3 text-center border-3">
         
-        <div class="row">
-            <div id="result" class="col-12 mt-3">
+        <div class="row d-flex justify-content-center text-center">
+            <div id="result" class="col-12 m-4">
                 <h4>Your BMI : 21.50 <br><br> You have a normal body weight Goog Job!</h4>
             </div>
         </div>
         
         <h1 class="mt-3">BMI CALCULATOR</h1>
            
-        <div class="img-container">
-            <div class="row mt-5">
-                <div class="col-6 m-3 p-4 rounded-3 img1"><img width="100" src="man.png"></div>
-                <div class="col-6 m-3 p-4 rounded-3 img2"><img width="100" src="woman.png"></div>
+        <div class="img-container d-flex">
+            <div class="row mt-5"> 
+
+                <div class="col-6 m-3 me-4 p-3 rounded-3">
+                    <input type="radio" name="gender" id="male" value="male">
+                    <label class="rounded-3" for="male"><img width="150" src="man.png" alt="male"></label>
+                </div>
+                
+                <div class="col-6 m-3 me-3 p-3 rounded-3">
+                    <input type="radio" name="gender" id="female" value="female">
+                    <label class="rounded-3" for="female"><img width="150" src="woman.png" alt="female"></label>
+                </div>
+            
             </div>
             
             <div class="row mt-3">
@@ -32,7 +41,7 @@
         
         <div class="height m-3 rounded-3">
             <h4 class="mb-4 pt-2">HEIGHT(cm)</h4>
-            <input class="pb-2 mb-4 text-center text-white" type="number" name="height" id="" placeholder="Enter Your Height...">
+            <input class="pb-2 mb-4 text-center text-white" type="number" name="height" id="heightInput" placeholder="Enter Your Height...">
         </div>
 
         <div class="row range-container">    

@@ -10,26 +10,82 @@ body{
     
 }
 
-.img1{
-
-    width: 42% ;
-    background-color: #2d2f3e;
-}
-.img2{
+.img-container .col-6{
     width: 42%;
     background-color: #2d2f3e;
 }
 
-.img1:hover{
-    border: #E81D58 solid 2px;
+label:hover{
+    border: #E81D58 solid 3px;
 }
 
-.img2:hover{
-    border: #E81D58 solid 2px;
+input[type="radio"]{
+    display: none;
+}
+
+label{
+    display: inline-block;
+    border: 3px solid transparent;
+    padding: 5px;
+}
+
+input[type="radio"]:checked + label{
+    border-color: #E81D58;
 }
 
 .height{
     background-color: #2d2f3e;
+}
+
+input[type=range] {
+    -webkit-appearance: none;
+    width: 80%; 
+    height: 11px;
+    background: #E81D58;
+    border-radius: 5px;
+    display: inline-block;
+  }
+  
+  input[type=range]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+  }
+  
+  input[type=range]:focus {
+    outline: none; 
+  }
+  
+  input[type=range]::-ms-track {
+    width: 100%;
+    cursor: pointer;
+    background: transparent; 
+    border-color: transparent;
+    color: transparent;
+  }
+  
+  input[type=range]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    border: none;
+    height: 14px;
+    width: 14px;
+    border-radius: 50%;
+    background: #080B1C;
+    cursor: pointer; 
+  }
+  
+  input[type=range]::-moz-range-thumb {
+    height: 14px;
+    width: 14px;
+    border-radius: 50%;
+    background: #080B1C;
+    cursor: pointer;
+  }
+  
+  input[type=range]::-ms-thumb {
+    height: 14px;
+    width: 14px;
+    border-radius: 50%;
+    background: #080B1C;
+    cursor: pointer;
 }
 .height input{
     width: 90%;
@@ -41,13 +97,16 @@ body{
 
 .age{
     width: 43%;
+    height: 110px;
     background-color: #2d2f3e;
 }
 
 .weight{
     width: 43%;
+    height: 110px;
     background-color: #2d2f3e;
 }
+
 
 button{
     font-size: large;
@@ -59,4 +118,12 @@ button{
 button:hover{
     border: #E81D58 2px solid;
 
+}
+
+#result{
+    width: 80%;
+    font-size: x-large;
+    font-weight: 500;
+    background-color: #2d2f3e;
+    border: #E81D58 2px solid;
 }
