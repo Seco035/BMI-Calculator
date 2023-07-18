@@ -7,22 +7,25 @@ body{
     width: 25%;
     border:solid #E81D58;
     background-color: #080B1C;
-
-}
-
-.img-container{
-    /* box-sizing: border-box; */
     
 }
+
 .img1{
 
     width: 42% ;
     background-color: #2d2f3e;
-    /* margin-left: 20px; */
 }
 .img2{
     width: 42%;
     background-color: #2d2f3e;
+}
+
+.img1:hover{
+    border: #E81D58 solid 2px;
+}
+
+.img2:hover{
+    border: #E81D58 solid 2px;
 }
 
 .height{
@@ -30,4 +33,30 @@ body{
 }
 .height input{
     width: 90%;
+    background-color: #2d2f3e;
+    border: none;
+    border-bottom: #fff 2px solid;
+    font-size: x-large;
+}
+
+.age{
+    width: 43%;
+    background-color: #2d2f3e;
+}
+
+.weight{
+    width: 43%;
+    background-color: #2d2f3e;
+}
+
+button{
+    font-size: large;
+    font-weight: 400;
+    background-color: #2d2f3e;
+    border: none;
+}
+
+button:hover{
+    border: #E81D58 2px solid;
+
 }

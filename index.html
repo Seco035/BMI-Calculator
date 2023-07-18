@@ -19,8 +19,8 @@
            
         <div class="img-container">
             <div class="row mt-5">
-                <div class="col-6 m-3 p-3 rounded-3 img1"><img width="100" src="man.png"></div>
-                <div class="col-6 m-3 p-3 rounded-3 img2"><img width="100" src="woman.png"></div>
+                <div class="col-6 m-3 p-4 rounded-3 img1"><img width="100" src="man.png"></div>
+                <div class="col-6 m-3 p-4 rounded-3 img2"><img width="100" src="woman.png"></div>
             </div>
             
             <div class="row mt-3">
@@ -32,23 +32,23 @@
         
         <div class="height m-3 rounded-3">
             <h4 class="mb-4 pt-2">HEIGHT(cm)</h4>
-            <input class="pb-2 mb-4" type="number" name="height" id="">
+            <input class="pb-2 mb-4 text-center text-white" type="number" name="height" id="" placeholder="Enter Your Height...">
         </div>
-            <div class="row range-container">
-                
-                <div class="col-6 age">
-                    <h4>AGE</h4>
-                    <span id="ageSpan">5</span>
-                    <input type="range" max="100" min="5" id="ageInput" value="5">
-                </div>
-                    
-                <div class="col-6">
-                    <h4>WEIGHT(kg)</h4>
-                    <span id="weightSpan">5</span>
-                    <input id="weightInput" type="range" min="5" max="200" value="5">
-                </div>
+
+        <div class="row range-container">    
+            <div class="col-6 age m-3 p-4 rounded-3">
+                <h4>AGE</h4>
+                <span id="ageSpan">5</span>
+                <input type="range" max="100" min="5" id="ageInput" value="5">
             </div>
-            <button class="m-4" onclick="calculate()">Calculate Your BMI</button>
+                    
+            <div class="col-6 weight m-3 p-4 rounded-3">
+                <h4>WEIGHT(kg)</h4>
+                <span id="weightSpan">5</span>
+                <input id="weightInput" type="range" min="5" max="200" value="5">
+            </div>
+        </div>
+            <button class="m-4 p-2 text-white rounded-3" onclick="calculate()">Calculate Your BMI</button>
     </div>
     <script src="app.js"></script>
 </body>
