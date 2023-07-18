@@ -2,10 +2,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
     <title>BMI CALCULATOR</title>
 </head>
+
 <body class="text-white d-flex align-items-center">
     <div class="container rounded-3 text-center border-3">
         
@@ -14,43 +16,31 @@
                 <h4>Your BMI : 21.50 <br><br> You have a normal body weight Goog Job!</h4>
             </div>
         </div>
-        
         <h1 class="mt-3">BMI CALCULATOR</h1>
-           
-        <div class="img-container d-flex">
+        <div class="img-container d-flex justify-content-center">
             <div class="row mt-5"> 
-
-                <div class="col-6 m-3 me-4 p-3 rounded-3">
+                <div class="img1 col-sm-6 m-3  p-3 rounded-3">
                     <input type="radio" name="gender" id="male" value="male">
                     <label class="rounded-3" for="male"><img width="150" src="man.png" alt="male"></label>
                 </div>
-                
-                <div class="col-6 m-3 me-3 p-3 rounded-3">
+                <div class="img2 col-sm-6 m-3  p-3 rounded-3">
                     <input type="radio" name="gender" id="female" value="female">
                     <label class="rounded-3" for="female"><img width="150" src="woman.png" alt="female"></label>
                 </div>
-            
             </div>
-            
             <div class="row mt-3">
-                
             </div>    
-        
         </div>
-
-        
         <div class="height m-3 rounded-3">
             <h4 class="mb-4 pt-2">HEIGHT(cm)</h4>
             <input class="pb-2 mb-4 text-center text-white" type="number" name="height" id="heightInput" placeholder="Enter Your Height...">
         </div>
-
         <div class="row range-container">    
             <div class="col-6 age m-3 p-4 rounded-3">
                 <h4>AGE</h4>
                 <span id="ageSpan">5</span>
                 <input type="range" max="100" min="5" id="ageInput" value="5">
-            </div>
-                    
+            </div>             
             <div class="col-6 weight m-3 p-4 rounded-3">
                 <h4>WEIGHT(kg)</h4>
                 <span id="weightSpan">5</span>
@@ -61,4 +51,5 @@
     </div>
     <script src="app.js"></script>
 </body>
+
 </html>
