@@ -1,0 +1,116 @@
+body{
+    background: linear-gradient(to bottom, rgba(57, 64, 73, 0.8),
+     rgba(0, 0, 0, 0.8));
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* height: 100vh;    */
+    display: flex;
+    color: #fff;
+    /* overflow: hidden; */
+}
+
+.container{
+    border-radius: 5px;
+    background-color: #080B1C;
+    border: 3px solid #E81D58;
+    width: 25%;
+    margin: auto;
+    text-align: center;
+}
+
+h1{
+    font-size: larger;
+}
+
+
+img{
+    width: 20%;
+    background-color: #2d2f3e;
+    box-shadow: 0px 0px 10px 0px rgba(black,0.5);
+    border-radius: 5px;
+    padding: 35px;
+    cursor: pointer;
+}
+
+img:hover{
+    border: 2px solid #E81D58;
+}
+
+.gender-img.selected {
+    border-color: #E81D58;
+}
+
+.height{
+    width: 79%;
+    margin: auto;
+    background-color: #2d2f3e;
+    border-radius: 10px;
+}
+
+.height input{
+    text-align: center;
+    font-size: larger;
+    color: #fff;
+    position: relative;
+    bottom: 10px;
+    width: 80%;
+    border: none;
+    border-bottom: #fff 2px solid;
+    padding-bottom: 10px;
+    background-color: #2d2f3e;
+}
+
+.range-container{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    margin-left: 22px ;
+}
+  
+input[type="range"]::-webkit-slider-runnable-track {
+    background-color: #E81D58;
+}
+  
+.range-container::before {
+    content: attr(data-value);
+    position: absolute;
+    top: -25px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 14px;
+    color: #333;
+}
+
+.weight{
+    height: 100px;
+    width: 45%;
+    background-color: #2d2f3e;
+    border-radius: 5px;
+}
+
+.age{
+    height: 100px;
+    width: 45%;
+    background-color: #2d2f3e;
+    border-radius: 5px;
+}
+
+#result{
+    color: #fff;
+    font-size: large;
+    margin: 50px 50px;
+    padding: 5vh;
+    text-align: center;
+    background-color: #2d2f3e;
+    border-radius: 5px;
+}
+button{
+    color: #fff;
+    font-size: large;
+    font-weight: 500;
+    margin-bottom: 10px;
+    padding: 2vh;
+    background-color: #2d2f3e;
+    border-radius: 5px;
+}
