@@ -24,6 +24,7 @@ function calculate(){
 
 let weight = document.querySelector("#weightInput") 
 weightSpan = document.querySelector("#weightSpan"),
+
 age = document.querySelector("#ageInput"),
 ageSpan = document.querySelector("#ageSpan")
 
